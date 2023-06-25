@@ -16,10 +16,12 @@ export function Header() {
           <div className="contact-mail flex">
             <EmailIcon
               fill="#fff"
-              className="w-[13px] mr-[5px] flex items-center"
+              width={'15px'}
+              height={'15px'}
+              className="mr-[10px] flex items-center"
             />
-            <p>
-              E-mail:
+            <p className="text-white text-sm">
+              E-mail: &nbsp;
               <Link href={"mailto:companymarketbr@gmail.com"} target="_blank">
                 companymarketbr@gmail.com
               </Link>
@@ -28,16 +30,20 @@ export function Header() {
           <div className="location flex ml-5">
             <LocationIcon
               fill="#fff"
-              className="w-[12px] mr-[5px] flex items-center"
+              width={'15px'}
+              height={'15px'}
+              className="mr-[10px] flex items-center"
             />
-            <Link
-              href={
-                "https://www.google.com/maps?client=opera-gx&hs=3B4&output=search&q=marica&entry=mc&sa=X&ved=2ahUKEwiZm4X0ucv_AhXQvJUCHbwnDXYQ0pQJegQICxAB"
-              }
-              target="_blank"
-            >
-              Maricá - RJ/Brasil
-            </Link>
+            <p className="text-white text-sm ">
+              <Link
+                href={
+                  "https://www.google.com/maps?client=opera-gx&hs=3B4&output=search&q=marica&entry=mc&sa=X&ved=2ahUKEwiZm4X0ucv_AhXQvJUCHbwnDXYQ0pQJegQICxAB"
+                }
+                target="_blank"
+              >
+                Maricá - RJ/Brasil
+              </Link>
+            </p>
           </div>
         </div>
         <div className="w-[60%]">
