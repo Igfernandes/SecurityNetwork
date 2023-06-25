@@ -1,9 +1,26 @@
 
 import Image from "next/image";
+import { ArrowDownIcon } from "src/assets/icons/ArrowDown";
+import { ArrowLeftIcon } from "src/assets/icons/ArrowLeft";
+import { ArrowRigthIcon } from "src/assets/icons/ArrowRigth";
+import { ArrowUpIcon } from "src/assets/icons/ArrowUp";
+import { BugIcon } from "src/assets/icons/Bug";
+import { CallCenterIcon } from "src/assets/icons/CallCenter";
+import { CircleCheckIcon } from "src/assets/icons/CircleCheck";
+import { EmailIcon } from "src/assets/icons/Email";
+import { FacebookIcon } from "src/assets/icons/Facebook";
+import { GoogleIcon } from "src/assets/icons/Google";
+import { HeadPhoneIcon } from "src/assets/icons/HeadPhone";
+import { InstagramIcon } from "src/assets/icons/Instagram";
+import { LinkedinIcon } from "src/assets/icons/Linkedin";
+import { LocationIcon } from "src/assets/icons/Location";
+import { MagnifyingGlassIcon } from "src/assets/icons/MagnifyingGlass";
+import { StarIcon } from "src/assets/icons/Star";
+import { TwitterIcon } from "src/assets/icons/Twitter";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-brand-primary">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-brand-secondary">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-brand-primary">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
@@ -28,7 +45,30 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <div className="h-[15vh] bg-brand-primary w-full flex items-center justify-center">
+        <EmailIcon className='bg-white w-[1rem] h-[1rem]' fill='red' />
+        <HeadPhoneIcon className='bg-white w-[2rem] h-[2rem]' fill='red' />
+        <GoogleIcon className='w-[2rem] h-[2rem]' />
+        <LocationIcon className='w-[1.5rem] h-[2rem] bg-white' fill='red' />
+        <FacebookIcon className='w-[1.5rem] h-[2rem] bg-white' fill='red' />
+        <TwitterIcon className='w-[1.5rem] h-[2rem] bg-white' fill='red' />
+        <LinkedinIcon className='w-[1.5rem] h-[2rem] bg-white' fill='red' />
+        <InstagramIcon className='w-[1.5rem] h-[2rem] bg-white' fill='red' />
+        <MagnifyingGlassIcon className='w-[1.5rem] h-[2rem] bg-white' fill='red' />
+        <BugIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <ArrowLeftIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <ArrowRigthIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <ArrowUpIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <ArrowDownIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <StarIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <CallCenterIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <CircleCheckIcon className='w-[1rem] h-[1rem] bg-[#603364] rounded-xl' fill='White' />
 
+
+
+
+
+      </div>
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
