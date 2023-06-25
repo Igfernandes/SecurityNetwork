@@ -1,4 +1,4 @@
-import { SvgProps } from '../type';
+import { SvgProps } from "../type";
 
 export const MagnifyingGlassIcon = (props: SvgProps) => {
     const { width, height, style, fill, className } = props;
