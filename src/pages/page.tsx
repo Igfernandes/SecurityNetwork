@@ -7,6 +7,7 @@ import { ArrowUpIcon } from "src/assets/icons/ArrowUp";
 import { BugIcon } from "src/assets/icons/Bug";
 import { CallCenterIcon } from "src/assets/icons/CallCenter";
 import { CircleCheckIcon } from "src/assets/icons/CircleCheck";
+import { DeliveryNetworkIcon } from "src/assets/icons/DeliveryNetwork";
 import { EmailIcon } from "src/assets/icons/Email";
 import { FacebookIcon } from "src/assets/icons/Facebook";
 import { GoogleIcon } from "src/assets/icons/Google";
@@ -14,7 +15,8 @@ import { HeadPhoneIcon } from "src/assets/icons/HeadPhone";
 import { InstagramIcon } from "src/assets/icons/Instagram";
 import { LinkedinIcon } from "src/assets/icons/Linkedin";
 import { LocationIcon } from "src/assets/icons/Location";
-import { MagnifyingGlassIcon } from "src/assets/icons/MagnifyingGlass";
+import { MagnifyingGlassIcon } from "src/assets/icons/MagnifyingGlassIcon";
+import { ManagedWebApplicationIcon } from "src/assets/icons/ManagedWebApplication";
 import { StarIcon } from "src/assets/icons/Star";
 import { TwitterIcon } from "src/assets/icons/Twitter";
 
@@ -62,7 +64,10 @@ export default function Home() {
         <ArrowDownIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
         <StarIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
         <CallCenterIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <DeliveryNetworkIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
+        <ManagedWebApplicationIcon className='w-[2rem] h-[2rem] bg-white' fill='red' />
         <CircleCheckIcon className='w-[1rem] h-[1rem] bg-[#603364] rounded-xl' fill='White' />
+        
 
 
 
