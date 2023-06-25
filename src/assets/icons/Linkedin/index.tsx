@@ -1,4 +1,4 @@
-import { SvgProps } from '../type';
+import { SvgProps } from '../types';
 
 export const LinkedinIcon = (props: SvgProps) => {
     const { width, height, style, fill, className } = props;
