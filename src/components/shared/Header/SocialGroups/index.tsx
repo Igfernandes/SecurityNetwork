@@ -5,7 +5,7 @@ import { LinkedinIcon } from "src/assets/icons/Linkedin";
 import { TwitterIcon } from "src/assets/icons/Twitter";
 
 export function SocialGroups() {
-  const className = "w-[15px] h-[15px] fill-white";
+  const className = "w-[15px] h-[15px] fill-color-white";
 
   return (
     <ul className="flex justify-between">

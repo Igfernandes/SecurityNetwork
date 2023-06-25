@@ -9,6 +9,7 @@ module.exports = {
         white: '#FFFFFF',
         black: '#000000',
         offWhite: '#f4f5fa',
+        pourple: '#241531',
         green: '#59B755',
         red: '#EC4953',
         error: '#AB000D'
@@ -23,8 +24,8 @@ module.exports = {
         500: '#475766',
         600: '#656A6E'
     },
-    text: {
-        primary: '#ffffff',
+    color: {
+        white: '#ffffff',
         secondary: '#ABA8AE',
         tertiary: '#0e0129',
     }
