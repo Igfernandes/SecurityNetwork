@@ -4,10 +4,10 @@ import { NavbarProps } from "./type";
 export function Navbar({ menu }: NavbarProps) {
   return (
     <nav>
-      <ul>
+      <ul className="flex text-color-white">
         {menu.map((li, key) => {
           return (
-            <li key={key}>
+            <li key={key} className="mx-3 font-semibold">
               <Link href={!!li.link ? li.link : `#${li.label.toLowerCase()}`}>
                 {li.label}
               </Link>
