@@ -1,4 +1,4 @@
-import { SvgProps } from '../type';
+import { SvgProps } from '../types';
 
 export const ArrowLeftIcon = (props: SvgProps) => {
   const { className, width = '20', height = '20', fill = '#2D3640' } = props;

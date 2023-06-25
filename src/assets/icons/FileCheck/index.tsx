@@ -1,4 +1,4 @@
-import { SvgProps } from '../type';
+import { SvgProps } from '../types';
 
 export const FileCheckIcon = (props: SvgProps) => {
   const { width = 20, height = 20, fill = '#2D3640' } = props;

@@ -1,4 +1,4 @@
-import { SvgProps } from '../type';
+import { SvgProps } from '../types';
 
 export const TrashIcon = (props: SvgProps) => {
   const { width, height, fill, className } = props;

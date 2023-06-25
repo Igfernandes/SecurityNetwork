@@ -1,5 +1,5 @@
 import React from 'react';
-import { SvgProps } from '../type';
+import { SvgProps } from '../types';
 
 export function CloseIcon({ fill, height, width, stroke = 1.5 }: SvgProps) {
   return (

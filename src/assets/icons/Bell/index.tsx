@@ -1,4 +1,4 @@
-import { SvgProps } from '../type';
+import { SvgProps } from '../types';
 
 export const BellIcon = (props: SvgProps) => {
   const { width, height, style, fill, svgClass, className, onClick } = props;

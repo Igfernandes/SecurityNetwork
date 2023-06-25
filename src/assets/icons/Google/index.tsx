@@ -1,4 +1,4 @@
-import { SvgProps } from '../type';
+import { SvgProps } from '../types';
 
 export const GoogleIcon = (props: SvgProps) => {
   const { width, height, style, className, onClick } = props;
