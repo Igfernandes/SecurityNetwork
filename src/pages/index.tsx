@@ -1,7 +1,9 @@
-export default function Index(){
+import { Appresentation } from "src/components/Appresentation";
 
-    return (
-        <>
-        <h1>dsds</h1></>
-    )
+export default function Index() {
+  return (
+    <>
+      <Appresentation />
+    </>
+  );
 }

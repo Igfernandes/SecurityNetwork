@@ -64,7 +64,7 @@ export function Header() {
           <Navbar menu={menu} />
         </div>
         <div className="menu w-[20%] ml-auto text-end">
-          <button className="btn btn-default text-sm">SOLICITE AJUDA</button>
+          <button className="btn btn-default btn-hover-default text-sm">SOLICITE AJUDA</button>
         </div>
       </div>
       </Container>
