@@ -1,4 +1,5 @@
 import { Appresentation } from "src/components/Appresentation";
+import { CyberDefenses } from "src/components/CyberDefenses";
 import { FeaturesSecurity } from "src/components/FeaturesSecurity";
 import { OurMission } from "src/components/OurMission";
 import { WebsiteSecurity } from "src/components/WebsiteSecurity";
@@ -10,6 +11,7 @@ export default function Index() {
       <FeaturesSecurity />
       <OurMission />
       <WebsiteSecurity />
+      <CyberDefenses />
     </>
   );
 }
