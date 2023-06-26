@@ -38,7 +38,7 @@ export function Appresentation() {
           </div>
           <div className="col w-[50%] p-2">
             <div className="illustration">
-                <img src="/img/black-banner.png" alt="" />
+              <img src="/img/black-banner.png" alt="Illustration" />
             </div>
           </div>
         </div>
