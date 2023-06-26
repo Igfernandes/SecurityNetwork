@@ -1,7 +1,10 @@
-export default function Index(){
 
-    return (
-        <>
-        <h1>dsds</h1></>
-    )
+import { OurMission } from "../components/OurMission";
+
+export default function Home() {
+  return (
+    <>
+      <OurMission />
+    </>
+  );
 }
