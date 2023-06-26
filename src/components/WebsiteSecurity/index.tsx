@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "../shared/Container";
 import { BoxService } from "./BoxService";
+import { servicesItens } from "src/constants/servicesItens";
 
 export function WebsiteSecurity() {
 
@@ -8,7 +9,7 @@ export function WebsiteSecurity() {
         <section className="relative">
             <Container>
                 <div className="image">
-                    <div className="image w-[25%] absolute right-0 top-0">
+                    <div className="image w-[20%] absolute right-0 top-0">
                         <Image src="/img/security-shape-1.png" alt="two people using computer in table" style={{ width: '100%', height: "100%" }} width={1000} height={1000} />
                     </div>
                 </div>
@@ -18,7 +19,7 @@ export function WebsiteSecurity() {
                             <div className="p-3 w-[50%] flex justify-center items-center mx-auto text-center">
                                 <div className="content">
                                     <div className="title">
-                                        <h1 className="text-[3rem] font-bold">You Get Complete Website Security From Us</h1>
+                                        <h1 className="text-[3rem] font-barlow"><strong> You Get Complete Website Security From Us </strong></h1>
                                     </div>
                                 </div>
                             </div>
@@ -32,9 +33,17 @@ export function WebsiteSecurity() {
                         </div>
                     </div>
                 </div>
-            </Container>
-            <Container>
-                <BoxService />
+                <div className="row mt-[3rem] max-w-[1320px] mx-auto">
+                    <div className="flex justify-around">
+                        {servicesItens.map(({ icon, title, text }, key) => {
+                            return (
+                                <div key={key} className="w-[25%] mx-3">
+                                    <BoxService icon={icon} title={title} text={text} />
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
             </Container>
         </section>
     );
