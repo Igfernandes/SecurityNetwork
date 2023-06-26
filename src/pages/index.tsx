@@ -1,10 +1,11 @@
-
+import { Appresentation } from "src/components/Appresentation";
+import { OurMission } from "src/components/OurMission";
 import { WebsiteSecurity } from "src/components/WebsiteSecurity";
-import { OurMission } from "../components/OurMission";
 
-export default function Home() {
+export default function Index() {
   return (
     <>
+      <Appresentation />
       <OurMission />
       <WebsiteSecurity />
     </>
