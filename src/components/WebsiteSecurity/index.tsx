@@ -13,13 +13,13 @@ export function WebsiteSecurity() {
                         <Image src="/img/security-shape-1.png" alt="two people using computer in table" style={{ width: '100%', height: "100%" }} width={1000} height={1000} />
                     </div>
                 </div>
-                <div className="row pt-[5rem]">
+                <div className="row pt-[3rem]">
                     <div className="flex text-color-white mx-auto justify-between">
                         <div className="title-content w-full">
                             <div className="p-3 w-[50%] flex justify-center items-center mx-auto text-center">
                                 <div className="content">
                                     <div className="title">
-                                        <h1 className="text-[3rem] font-barlow"><strong> You Get Complete Website Security From Us </strong></h1>
+                                        <h1 className="text-[2.5rem] font-barlow"><strong> You Get Complete Website Security<br/> From Us </strong></h1>
                                     </div>
                                 </div>
                             </div>
