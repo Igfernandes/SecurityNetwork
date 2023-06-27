@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { Container } from "../shared/Container";
+import { SecurityShape } from "../shared/SecurityShape";
 import { BoxService } from "./BoxService";
 import { servicesItens } from "src/constants/servicesItens";
 
@@ -7,17 +7,7 @@ export function WebsiteSecurity() {
   return (
     <section>
       <Container>
-        <div className="image">
-          <div className="image w-[20%] absolute right-0 top-0">
-            <Image
-              src="/img/security-shape-1.png"
-              alt="two people using computer in table"
-              style={{ width: "100%", height: "100%" }}
-              width={1000}
-              height={1000}
-            />
-          </div>
-        </div>
+        <SecurityShape />
         <div className="row pt-[3rem]">
           <div className="col p-3 text-center">
             <div className="title">
