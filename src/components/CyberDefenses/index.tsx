@@ -1,22 +1,14 @@
-import Image from "next/image";
 import { Container } from "../shared/Container";
 import { useNavigationContext } from "src/contexts/Navigation";
+import { SecurityShape } from "../shared/SecurityShape";
 
 export function CyberDefenses() {
-  const {} = useNavigationContext();
+  const { } = useNavigationContext();
 
   return (
     <section className="relative">
       <Container>
-        <div className="image w-[20%] absolute right-0 top-[20%]">
-          <Image
-            src="/img/security-shape-1.png"
-            alt="two people using computer in table"
-            style={{ width: "100%", height: "100%" }}
-            width={1000}
-            height={1000}
-          />
-        </div>
+        <SecurityShape />
         <div className="row pt-[3rem]">
           <div className="col mx-auto p-3">
             <div className="title w-[50%] mx-auto text-center">
