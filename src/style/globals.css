@@ -2,34 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './animations.css';
+@import "./animations.css";
 
 :root {
   --color-hex: #fff;
-  --foreground-hex: #1C0531;
+  --foreground-hex: #1c0531;
   --hover-dark-background: #0e0129;
   --hover-dark-background-100: #0e012942;
-  --color-red-medium-hex: #D80650; 
+  --color-red-medium-hex: #d80650;
 }
 
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   color: rgb(var(--color-hex));
   background: var(--foreground-hex);
 }
 
-.font-barlow{
-  font-family: 'Barlow Condensed', sans-serif;
+.font-barlow {
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .btn {
   position: relative;
-  padding: .8rem 3rem;
-  border-radius: .3rem;
+  padding: 0.8rem 3rem;
+  border-radius: 0.3rem;
   overflow: hidden;
   z-index: 1;
 }
@@ -38,12 +38,31 @@ body {
   color: var(--color-hex);
   font-weight: 500;
   text-align: center;
-  background: linear-gradient(136.1deg, #D80650 1.84%, #FE5D68 100%);
+  background: linear-gradient(136.1deg, #d80650 1.84%, #fe5d68 100%);
 }
 
 .btn.btn-light {
   color: var(--color-hex);
   font-weight: 500;
   text-align: center;
-  border: 1px solid  var(--color-red-medium-hex);
+  border: 1px solid var(--color-red-medium-hex);
 }
+
+/*Editing bullets swiper*/
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active-prev,
+.swiper-pagination-bullet-active-next {
+  border: 1px solid #d80650 !important;
+  background: none !important;
+  opacity: 1 !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  border: 1px solid #d80650 !important;
+  background: #d80650 !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+/* END Editing bullets swiper*/
