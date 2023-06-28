@@ -1,4 +1,5 @@
 import { Appresentation } from "src/components/Appresentation";
+import { ClientsSay } from "src/components/ClientsSay";
 import { CyberDefenses } from "src/components/CyberDefenses";
 import { FeaturesSecurity } from "src/components/FeaturesSecurity";
 import { OperationCenter } from "src/components/OperationCenter";
@@ -13,6 +14,8 @@ export default function Index() {
       <OurMission />
       <WebsiteSecurity />
       <CyberDefenses />
+      <OperationCenter />
+      <ClientsSay />
       <OperationCenter />
     </>
   );

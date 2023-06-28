@@ -7,7 +7,7 @@ export function OperationCenter() {
 
   return (
     <section>
-      <Container>
+      <Container className="mb-[5rem]">
         <div className="row pt-[3rem] flex">
           <div className="col w-[47%] h-[80%] rounded-[30px] mx-auto overflow-hidden">
             <Image
