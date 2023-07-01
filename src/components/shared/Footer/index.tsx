@@ -2,7 +2,6 @@ import Link from "next/link";
 import { menu } from "src/constants/menu";
 import { EmailIcon } from "src/assets/icons/Email";
 import { LocationIcon } from "src/assets/icons/Location";
-import { SocialGroups } from "./SocialGroups";
 import { Container } from "../Container";
 
 export function Footer() {
@@ -47,23 +46,22 @@ export function Footer() {
           </div>
           <div className="w-[60%]">
             <div className="social-group w-[6rem] ml-auto">
-              <SocialGroups />
             </div>
           </div>
         </div>
       </Container>
       <Container>
-      <div className="header-menu flex items-center">
-        <div className="logo w-[25%]">
-           <h1 className="text-color-white text-2xl font-semibold">SECURITY NETWORK</h1>
+        <div className="header-menu flex items-center">
+          <div className="logo w-[25%]">
+            <h1 className="text-color-white text-2xl font-semibold">SECURITY NETWORK</h1>
+          </div>
+          <div className="menu w-[40%]">
+
+          </div>
+          <div className="menu w-[20%] ml-auto text-end">
+            <button className="btn btn-default btn-hover-default text-sm">SOLICITE AJUDA</button>
+          </div>
         </div>
-        <div className="menu w-[40%]">
-          <Navbar menu={menu} />
-        </div>
-        <div className="menu w-[20%] ml-auto text-end">
-          <button className="btn btn-default btn-hover-default text-sm">SOLICITE AJUDA</button>
-        </div>
-      </div>
       </Container>
     </header>
   );
