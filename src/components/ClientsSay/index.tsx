@@ -1,7 +1,6 @@
-import Image from "next/image";
 import { Container } from "../shared/Container";
 
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,7 +11,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { ClientsBox } from "./ClientsBox";
-import { clientsSay } from "src/constants/clientsSay";
+import { clientsSay } from "src/components/ClientsSay/mocks/clientsSay";
 
 export function ClientsSay() {
 
@@ -37,17 +36,16 @@ export function ClientsSay() {
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
+            effect={"fade"}
             loop={true}
             autoplay={{
               delay: 2500,
-              disableOnInteraction: false,
             }}
             pagination={{
               dynamicBullets: true,
               clickable: true,
             }}
             modules={[Autoplay, Pagination, Navigation]}
-            navigation={true}
             className="mySwiper h-[300px]"
           >
             {clientsSay.map(({ nome, ocupation, text }, key) => {
