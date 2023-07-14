@@ -6,11 +6,11 @@ import { ItensInovate } from "./itensInovate";
 export function InnovativeProtection() {
   return (
     <section>
-      <Container className="py-[5rem]" maxWidth={'1200px'}>
-        <div className="row pt-[3rem] flex">
-          <div className="col w-[50%] mx-auto p-3">
+      <Container className="py-3 lg:py-[5rem]" maxWidth={'1200px'}>
+        <div className="row lg:pt-[3rem] flex flex-wrap items-center">
+          <div className="col w-full lg:w-[50%] mx-auto p-3">
             <div className="title ">
-              <h1 className="text-[3rem] font-barlow text-color-white">
+              <h1 className="text-[1.8rem] lg:text-[3rem] xl:text-[2.7rem] font-barlow text-color-white">
                 <strong className="font-barlow">
                   Innovative Electronic Protection Of Your Office And Home Control
                 </strong>
@@ -21,10 +21,7 @@ export function InnovativeProtection() {
                 Lorem ipsum dolor sit amet consectetur adipiscing elit adipiscing eleifend dictum potenti mattis viverra eget quam lacus enim porttitor bibendum elit dui nisl.
               </p>
             </div>
-            <div className="flex flex-wrap justify-between mt-5">
-
-            </div>
-            <div className="text">
+            <div className="text mt-5">
               <p className="text-[1.3rem] font-barlow text-color-secondary">
                 Lorem ipsum dolor sit amet consecte adipi scing elit. Adipiscing eleifend poteder mattis viverra lorem ipsum dolor sit amet consecte adipisci ng elit adipiscingdiper eleifend dictum potenti mattis viverra.
               </p>
@@ -42,7 +39,7 @@ export function InnovativeProtection() {
               </button>
             </div>
           </div>
-          <div className="col w-[47%] h-[80%] rounded-[30px] mx-auto overflow-hidden">
+          <div className="col w-full lg:w-[47%] h-[80%] rounded-[30px] mt-8 mx-auto overflow-hidden">
             <Image
               className="max-w-full rounded-[30px]"
               src="/img/home-control.jpg"

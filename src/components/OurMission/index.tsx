@@ -5,8 +5,8 @@ export function OurMission() {
   return (
     <section>
       <Container>
-        <div className="row flex bg-brand-primary mx-auto justify-between">
-          <div className="col-6 w-[49%] p-3">
+        <div className="row flex flex-wrap bg-brand-primary mx-auto justify-between">
+          <div className="w-full lg:w-[49%] p-3">
             <div className="image w-full">
               <Image
                 src="/img/safer-world-2.png"
@@ -17,10 +17,10 @@ export function OurMission() {
               />
             </div>
           </div>
-          <div className="col-6 w-[49%] p-3 flex justify-center items-center">
+          <div className="w-full lg:w-[49%] p-3 flex justify-center items-center">
             <div className="content">
               <div className="title">
-                <h1 className="text-6xl">
+                <h1 className="text-3xl lg:text-6xl">
                   <strong className="font-barlow text-color-white ">
                     We Create A Safer Virtual World For Your Future
                   </strong>
@@ -33,28 +33,28 @@ export function OurMission() {
                   lacus enim porttitor bibendum elit dui nisl.
                 </p>
               </div>
-              <div className="flex justify-between mt-6">
-                <div className="col-6 w-[45%]">
-                  <h1 className="font-bold text-[1.7rem] font-barlow text-color-white">
+              <div className="flex flex-wrap justify-between lg:mt-6">
+                <div className="w-full lg:w-[45%] mt-3 lg:mt-0">
+                  <h1 className="font-bold text-[1.2rem] lg:text-[1.7rem] font-barlow text-color-white">
                     Our Mission
                   </h1>
-                  <p className="text-[1rem] mt-2 text-color-secondary">
+                  <p className="text-[0.9rem] lg:text-[1rem] mt-2 text-color-secondary">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit.
                     Adipisc ing eleifend dictum pot nti.
                   </p>
                 </div>
-                <div className="col-6 w-[45%]">
-                  <h1 className="font-bold text-[1.7rem] font-barlow text-color-white">
+                <div className="w-full lg:w-[45%] mt-3 lg:mt-0">
+                  <h1 className="font-bold text-[1.2rem] lg:text-[1.7rem] font-barlow text-color-white">
                     Our Mission
                   </h1>
-                  <p className="text-[1rem] mt-2 text-color-secondary">
+                  <p className="text-[0.9rem] lg:text-[1rem] mt-2 text-color-secondary">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit.
                     Adipisc ing eleifend dictum pot nti.
                   </p>
                 </div>
               </div>
               <div className="button  mt-[3rem]">
-                <button className="btn btn-default btn-hover-default text-md">
+                <button className="btn btn-default btn-hover-default w-full md:w-[50%] lg:w-[60%] xl:w-[45%] text-md">
                   Know More About Us
                 </button>
               </div>

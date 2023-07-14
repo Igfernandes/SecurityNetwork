@@ -6,11 +6,11 @@ export function FeaturesSecurity() {
   return (
     <section>
       <Container>
-        <div className="row mt-[3rem] mx-auto">
-          <div className="flex justify-around">
+        <div className="row lg:mt-[3rem] mx-auto">
+          <div className="flex flex-wrap justify-around">
             {featuresItens.map(({ img, title, text }, key) => {
               return (
-                <div key={key} className="w-[30%] mx-3">
+                <div key={key} className="w-full mt-4 md:w-[46%] md:mt-5 lg:mt-0 lg:w-[30%] lg:mx-3">
                   <BoxFeature img={img} title={title} text={text} />
                 </div>
               );

@@ -16,25 +16,23 @@ import { clientsSay } from "src/components/ClientsSay/mocks/clientsSay";
 export function ClientsSay() {
 
   return (
-    <section className="h-full bg-[url('/img/testimonials-bg.jpg')] bg-cover py-[5rem] relative">
+    <section className="h-full bg-[url('/img/testimonials-bg.jpg')] bg-cover py-[2rem] lg:py-[5rem] relative">
       <div className="film  bg-[#1C0531] opacity-70 w-full h-full absolute top-0"></div>
-
       <Container>
         <div className="row ">
           <div className="title">
-            <h1 className="text-color-white text-[3rem] text-center">
+            <h1 className="text-color-white text-[2rem] lg:text-[3rem] text-center">
               <strong className="font-barlow"> What Client’s Say About Us</strong>
             </h1>
           </div>
-          <div className="text w-[60%] mx-auto">
-            <p className="text-color-white text-[1rem] text-center">
+          <div className="text lg:w-[60%] mx-auto mt-3">
+            <p className="text-color-white text-[0.9rem] lg:text-[1rem] text-center">
               Lorem ipsum dolor sit amet consectetur adipiscing elit adipiscing eleifend dictum potenti mattis viverra eget quam lacus enim porttitor bibendum elit dui nisl.
             </p>
           </div>
         </div>
         <div className="row mt-[3rem]">
           <Swiper
-            slidesPerView={3}
             spaceBetween={30}
             effect={"fade"}
             loop={true}
@@ -44,6 +42,20 @@ export function ClientsSay() {
             pagination={{
               dynamicBullets: true,
               clickable: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
             }}
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper h-[300px]"

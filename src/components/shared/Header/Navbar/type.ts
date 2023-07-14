@@ -1,5 +1,7 @@
 export type NavbarProps = {
   menu: Menu;
+  classUl?: String;
+  classLi?: String;
 };
 
 export type Menu = Array<{
