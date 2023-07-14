@@ -4,7 +4,7 @@ export function SecurityShape() {
 
     return (
         <div className="image">
-            <div className="image w-[20%] absolute right-0 top-0">
+            <div className="image w-[75%] lg:w-[40%] xl:w-[20%] absolute right-0 top-[20px] lg:top-0">
                 <Image
                     src="/img/security-shape-1.png"
                     alt="two people using computer in table"

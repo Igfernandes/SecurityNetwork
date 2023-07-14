@@ -24,7 +24,7 @@ export function ClientsBox({ name, text, ocupation }: ClientsBoxProps) {
               </p>
             </div>
           </div>
-          <div className="cliente-star flex w-[40%] justify-center">
+          <div className="cliente-star flex w-[50%] justify-center">
             <FiveStars />
           </div>
         </div>

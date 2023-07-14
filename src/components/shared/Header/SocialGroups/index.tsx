@@ -11,22 +11,22 @@ export function SocialGroups() {
     <ul className="flex justify-between">
       <li>
         <Link href={"https://www.facebook.com/Company-Market-103482957803214/"}>
-          <FacebookIcon fill="#fff" className={className} />
+          <FacebookIcon fill="#fff" className={`${className} transition ease-in-out hover:fill-brand-secondary delay-150`} />
         </Link>
       </li>
       <li>
         <Link href={""}>
-          <TwitterIcon  className={className} />
+          <TwitterIcon className={`${className} transition ease-in-out hover:fill-brand-secondary delay-150`} />
         </Link>
       </li>
       <li>
         <Link href={""}>
-          <LinkedinIcon className={className}  />
+          <LinkedinIcon className={`${className} transition ease-in-out hover:fill-brand-secondary delay-150`} />
         </Link>
       </li>
       <li>
         <Link href={""}>
-          <InstagramIcon className={className}  />
+          <InstagramIcon className={`${className} transition ease-in-out hover:fill-brand-secondary delay-150`} />
         </Link>
       </li>
     </ul>
