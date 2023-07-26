@@ -1,7 +1,7 @@
 module.exports = {
     brand: {
         primary: '#1C0531',
-        primaryMatte:'#382549',
+        'primary-matte':'#382549',
         secondary: '#D80650',
         tertiary : '#FE5D68',
     },

@@ -1,3 +1,4 @@
+/** ANIMATION BUTTON HOVER */
 .btn::after {
   content: "";
   position: absolute;
@@ -50,6 +51,7 @@
   background: var(--hover-dark-background-100);
 }
 
+/** ANIMATION SERVICE CARD */
 .service-card {
   background-color: #382549;
   padding: 30px;
@@ -95,4 +97,27 @@
   left: 0;
   right: auto;
   width: 100%;
+}
+
+
+/** ANIMATION TABS */
+.tab-item{
+  position: relative;
+  overflow: hidden;
+}
+.tab-item::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(129.37deg, #603364 8.09%, #7F3668 100%);
+  transition: all 0.5s;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.tab-item:hover::before, .active-tab::before {
+  top: 0;
 }
