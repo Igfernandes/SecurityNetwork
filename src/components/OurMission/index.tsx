@@ -54,7 +54,7 @@ export function OurMission() {
                 </div>
               </div>
               <div className="button  mt-[3rem]">
-                <button className="btn btn-default text-md">
+                <button className="btn btn-default btn-hover-default text-md">
                   Know More About Us
                 </button>
               </div>
